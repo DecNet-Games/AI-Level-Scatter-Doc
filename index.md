@@ -1,35 +1,68 @@
 ---
-title: Home
-layout: home
+title: Getting Started
+layout: default
+nav_order: 1
+permalink: /
+has_children: true
 ---
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+# AI Level Scatter
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+**AI-Powered Environment Generation & Placement Assistant for Unity**
 
-More specifically, the created site:
+Manual object placement is a tedious, time-consuming bottleneck that drains creative energy. Placing every rock, grass tuft, and tree by hand costs hours and often results in robotic-looking, uniform layouts.
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+**Decnet AI Level Scatter** solves this bottleneck. It combines standard spatial geometry constraints (O(N) grid spacing filters, slope checks, normal-aligned surface snapping) with advanced cloud and local AI prompt completions to procedurally construct, paint, and organize 3D environments directly in the Unity Editor.
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+---
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+## Why AI Level Scatter?
 
-To get started with creating a site, simply:
+| The Pain (Manual Placement) | The Solution (Procedural AI) |
+| :--- | :--- |
+| **Robotic Grid-Spam**: Placing objects mathematically looks artificial and tiled. | **Handcrafted Feel Mode**: Infuses positions with asymmetry, natural clustering, and spacing jitter. |
+| **Draw Call Bottlenecks**: High object counts tank gameplay frame rates. | **Static Mesh Combiner**: Groups scattered props by material into optimized 32-bit meshes in one click. |
+| **Editor Freezes**: Streaming scene captures to external models lags and hangs. | **Asynchronous Update Engine**: Background operations process on non-blocking main-thread events. |
+| **Fragile Rules**: Hard to configure spacing, slope, and height limitations. | **AI Prompt Configurator**: Plain text prompts (e.g. *"jungle cliffs"*) automatically configure profile math. |
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
+---
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+## Core Features Tour
 
-----
+### 🏰 AI Modular Layout Builder
+Go from text description to fully connected 3D room shells natively. The layout builder utilizes a local BFS AABB overlap-free solver to align floors, ceilings, walls, doorways, lighting, and scattered details based on your prompt.
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+### 🖌 Scatter Paint Brush
+Paint prefabs from your profile onto any collider in your SceneView with natural brush strokes. Erase with Shift and resize the brush on-the-fly using the mouse scroll wheel.
 
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+### 🛣 Road Path Spline Decorator
+Create waypoints in the scene to decorate alongside pathways. Supports left, right, alternating, and double-sided offsets with snap-to-ground physics calculations.
+
+### 🔥 Visual Density Heatmap
+Verify placement density instantly with a 32x32 SceneView grid overlay. Easily identify dead zones and performance-heavy hotspots.
+
+---
+
+## Quick Navigation
+
+Ready to get started? Follow the paths below:
+
+* **[Installation Guide](docs/installation.md)**: Import the asset and set up Assembly Definitions.
+* **[Quick Start Guide](docs/quick-start.md)**: Populate your first scene in under 5 minutes.
+* **[AI Settings Manager](docs/ai-providers/)**: Connect Gemini, OpenAI, Claude, Grok, or local Ollama instances.
+* **[Modular Layout Builder Guide](docs/features/ai-modular-layout-builder.md)**: Generate complete 3D levels.
+
+> [!NOTE]
+> **Unity Asset Store Mandate**: This tool is a premium product and is **only** officially available through the Unity Asset Store. The GitHub repository is exclusively used for documentation hosting and issue tracking.
+
+> [!TIP]
+> Use the menu command `Tools -> Decnet -> Setup Demo Scene` inside Unity to immediately generate a fully working demo scene pre-populated with procedurally generated trees, rocks, and grass to test the editor tools out of the box!
+
+---
+
+## Section Contents
+
+To understand the core design and mechanics, browse the sub-pages in this category:
+
+1. **[Core Concepts](docs/getting-started/core-concepts.md)**: Explains Scatter Profiles, Candidates, Samplers, and Rules.
+2. **[Architecture Overview](docs/getting-started/architecture.md)**: Details the interaction between Editor scripts, physics raycasting, and AI prompt routers.
