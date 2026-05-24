@@ -6,7 +6,7 @@ nav_order: 8
 
 # FAQ & Troubleshooting
 
-**Frequently Asked Questions and troubleshooting guides for Decnet AI Level Scatter**
+**Frequently Asked Questions and troubleshooting guides for AI Level Scatter**
 
 Below is a list of common questions, configuration errors, and validation warnings encountered while setting up and using the tool.
 

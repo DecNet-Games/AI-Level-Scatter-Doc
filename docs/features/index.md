@@ -7,7 +7,7 @@ has_children: true
 
 # Flagship Features
 
-Decnet AI Level Scatter packs 13 specialized windows and engines designed to provide full creative and performance control over your environment layouts.
+AI Level Scatter packs 13 specialized windows and engines designed to provide full creative and performance control over your environment layouts.
 
 ---
 

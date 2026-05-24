@@ -12,7 +12,7 @@ has_children: true
 
 Manual object placement is a tedious, time-consuming bottleneck that drains creative energy. Placing every rock, grass tuft, and tree by hand costs hours and often results in robotic-looking, uniform layouts.
 
-**Decnet AI Level Scatter** solves this bottleneck. It combines standard spatial geometry constraints (O(N) grid spacing filters, slope checks, normal-aligned surface snapping) with advanced cloud and local AI prompt completions to procedurally construct, paint, and organize 3D environments directly in the Unity Editor.
+**AI Level Scatter** (published by **Decnet Games**) solves this bottleneck. It combines standard spatial geometry constraints (O(N) grid spacing filters, slope checks, normal-aligned surface snapping) with advanced cloud and local AI prompt completions to procedurally construct, paint, and organize 3D environments directly in the Unity Editor.
 
 ---
 

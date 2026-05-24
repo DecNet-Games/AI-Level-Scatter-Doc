@@ -7,7 +7,7 @@ nav_order: 2
 
 # Architecture Overview
 
-This page details the technical architecture of Decnet AI Level Scatter, including execution lifecycles, editor assembly isolation, and algorithmic optimizations.
+This page details the technical architecture of AI Level Scatter, including execution lifecycles, editor assembly isolation, and algorithmic optimizations.
 
 ---
 
@@ -51,7 +51,7 @@ graph TD
 
 A naive spacing filter check compares every candidate point against every other candidate, resulting in $O(N^2)$ complexity. For a density of 5,000 points, this requires up to 25 million distance calculations, freezing the editor.
 
-**Decnet AI Level Scatter** utilizes a **Spatial Hash Grid** to reduce this to $O(N)$ complexity:
+**AI Level Scatter** utilizes a **Spatial Hash Grid** to reduce this to $O(N)$ complexity:
 1. The bounding area is divided into virtual grid cells of size `minSpacing`.
 2. As candidates are accepted, their coordinates are mapped to a 2D integer key `(cellX, cellZ)` and stored in a hash dictionary.
 3. When evaluating a new candidate, the engine only queries the 9 neighboring cells (North, South, East, West, and diagonals) in the dictionary.

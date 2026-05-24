@@ -11,7 +11,7 @@ has_children: true
 
 A scattering configuration that works perfectly for a small PC tech demo will fail when applied to a mobile game targeting old Android devices or a massive multi-kilometer open-world RPG. Different game types require different optimization strategies, physics checks, and hierarchy organization.
 
-This section covers production-proven workflows for configuring and optimizing Decnet AI Level Scatter.
+This section covers production-proven workflows for configuring and optimizing AI Level Scatter.
 
 ---
 

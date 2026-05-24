@@ -11,7 +11,7 @@ nav_order: 3
 
 Sending scene data or prompt queries to cloud servers can raise security and privacy concerns in some studio settings. It also leaves your workflow dependent on an active internet connection.
 
-Decnet AI Level Scatter supports full integration with **Ollama**, a local model runner. This allows you to run models like Llama 3, Mistral, or Qwen directly on your development machine's GPU. It is completely free, runs offline, and doesn't require any API keys.
+AI Level Scatter supports full integration with **Ollama**, a local model runner. This allows you to run models like Llama 3, Mistral, or Qwen directly on your development machine's GPU. It is completely free, runs offline, and doesn't require any API keys.
 
 ---
 

@@ -9,7 +9,7 @@ nav_order: 2
 
 **Integrate OpenAI's GPT-4o and Anthropic's Claude 3.5 Sonnet into your editor workflow**
 
-For developers who already have active subscriptions or credits with OpenAI or Anthropic, Decnet AI Level Scatter supports full integration with these services. Both platforms offer top-tier layout calculations and design advice.
+For developers who already have active subscriptions or credits with OpenAI or Anthropic, AI Level Scatter supports full integration with these services. Both platforms offer top-tier layout calculations and design advice.
 
 ---
 

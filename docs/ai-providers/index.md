@@ -9,7 +9,7 @@ has_children: true
 
 **Connect cloud APIs or local instances to power the prompt generator and design coach**
 
-Decnet AI Level Scatter doesn't lock you into a single proprietary AI model. It features a modular **AI API Client Layer** that allows you to connect to a variety of artificial intelligence models, including cloud-based LLMs (like Google Gemini, OpenAI GPT-4o, and Anthropic Claude) and local offline instances (using Ollama).
+AI Level Scatter doesn't lock you into a single proprietary AI model. It features a modular **AI API Client Layer** that allows you to connect to a variety of artificial intelligence models, including cloud-based LLMs (like Google Gemini, OpenAI GPT-4o, and Anthropic Claude) and local offline instances (using Ollama).
 
 Configure and manage your API keys, base endpoints, model names, and connection tests in one unified interface.
 

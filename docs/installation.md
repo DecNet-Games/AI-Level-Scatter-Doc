@@ -6,7 +6,7 @@ nav_order: 2
 
 # Installation Guide
 
-To integrate Decnet AI Level Scatter into your project, follow this installation guide. 
+To integrate AI Level Scatter into your project, follow this installation guide. 
 
 > [!IMPORTANT]
 > **Commercial License Notice**:
@@ -29,11 +29,11 @@ Before importing the package, ensure your project environment meets the followin
 
 ## Step 1: Purchasing and Importing the Asset
 
-1. Open the **Unity Asset Store** in your web browser and purchase **Decnet AI Level Scatter**.
+1. Open the **Unity Asset Store** in your web browser and purchase **AI Level Scatter**.
 2. Open your Unity Project.
 3. Open the **Package Manager** window (`Window -> Package Manager`).
 4. Select **Packages: My Assets** from the dropdown menu in the top-left.
-5. Search for `Decnet AI Level Scatter` and click **Download**, then click **Import**.
+5. Search for `AI Level Scatter` and click **Download**, then click **Import**.
 6. In the Import window, ensure all files under `Assets/Decnet` are checked, and click **Import**.
 
 ---

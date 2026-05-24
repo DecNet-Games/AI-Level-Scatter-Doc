@@ -7,7 +7,7 @@ nav_order: 1
 
 # Core Concepts
 
-To effectively use and extend Decnet AI Level Scatter, it is essential to understand the primary models and structures that drive the environment placement pipeline.
+To effectively use and extend AI Level Scatter, it is essential to understand the primary models and structures that drive the environment placement pipeline.
 
 ---
 

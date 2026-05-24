@@ -9,7 +9,7 @@ nav_order: 1
 
 **Step-by-step guide to connect Google's Gemini models for rapid environment generation**
 
-Google Gemini is the default recommended provider for Decnet AI Level Scatter. It offers low latency, high token limits, and robust text-to-JSON formatting capabilities, making it ideal for compiling layout profiles and providing real-time design advice in the Editor.
+Google Gemini is the default recommended provider for AI Level Scatter. It offers low latency, high token limits, and robust text-to-JSON formatting capabilities, making it ideal for compiling layout profiles and providing real-time design advice in the Editor.
 
 ---
 
